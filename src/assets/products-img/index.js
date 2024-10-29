@@ -1,0 +1,11 @@
+export { default as bri60 } from "./brilique-60.jpg";
+export { default as bri90 } from "./brilique.jpg";
+export { default as eliquis25 } from "./eliquis-2,5.jpg";
+export { default as eliquis5 } from "./eliquis-5.jpg";
+export { default as forxiga5 } from "./forxiga-5.jpg";
+export { default as forxiga10 } from "./forxiga-10.jpg";
+export { default as pradaxa75 } from "./pradaxa-75.jpg";
+export { default as pradaxa150 } from "./pradaxa-150mg.jpg";
+export { default as xarelto15 } from "./xarelto-15.jpg";
+export { default as xarelto20 } from "./xarelto-20.jpg";
+export { default as xigduo } from "./xigduo.jpg";
