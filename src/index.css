@@ -19,3 +19,9 @@ code {
 * {
   box-sizing: border-box;
 }
+
+
+button.active {
+  font-weight: bold;
+  color: #007bff;
+}
