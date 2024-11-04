@@ -1,4 +1,3 @@
-import React from "react";
 import { ProductItemWrapper } from "../styled-components/style";
 
 const ProductItem = ({ data }) => {
