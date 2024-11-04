@@ -9,6 +9,7 @@ import { Home, About, Contact, Products } from "./pages";
 import { Header, Main, Footer, Banner } from "./components/layout";
 
 import { AppContentWrapper } from "./styled-components/style";
+import ProductTabs from "./components/ProductTabs";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <AppContentWrapper>
         <Header />
         <Banner />
+        <ProductTabs/>
         <Main>
           <Routes>
             <Route path="/" element={<Home />} />
