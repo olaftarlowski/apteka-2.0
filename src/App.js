@@ -10,6 +10,7 @@ import { Header, Main, Footer, Banner } from "./components/layout";
 
 import { AppContentWrapper } from "./styled-components/style";
 import ProductTabs from "./components/ProductTabs";
+import LeafletMap from "./components/LeafletMap";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <AppContentWrapper>
         <Header />
         <Banner />
+        {/* <LeafletMap/> */}
         <ProductTabs/>
         <Main>
           <Routes>

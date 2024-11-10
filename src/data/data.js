@@ -1,7 +1,7 @@
 const allData = [
   {
     name: "all",
-    headline: "Wszystkie",
+    headline: "Wybrane produkty",
     iconSrc:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLWXYXj5r2fRv0cLlmua-kO3pTsGD0O2vs0n0XulnXBlTeWrhIMoWZJ3QZsARHf50kDCI&usqp=CAU",
     data: [
@@ -40,6 +40,18 @@ const allData = [
         title: "Rodzina Zdrowia Immunosine Junior",
         imgSrc:
           "https://www.silesianpharma.pl/gfx/silesian-pharma/_thumbs/userfiles/_public/5547_01i_immunosine_junior_p_www,p31252unqFjnoWqpaA.png",
+      },
+      {
+        id: 7,
+        title: "Rodzina Zdrowia Melissive",
+        imgSrc:
+          "https://www.silesianpharma.pl/gfx/silesian-pharma/_thumbs/userfiles/_public/3013_09d_melissive_p_www,p31252unqFjnoWqpaA.png",
+      },
+      {
+        id: 8,
+        title: "Rodzina Zdrowia Luteina",
+        imgSrc:
+          "https://www.silesianpharma.pl/gfx/silesian-pharma/_thumbs/userfiles/_public/0658_07f_luteina_forte_r_www,p31252unqFjnoWqpaA.png",
       },
     ],
   },
@@ -773,6 +785,12 @@ const allData = [
         imgSrc:
           "https://www.silesianpharma.pl/gfx/silesian-pharma/_thumbs/userfiles/_public/stopery_piankowe_www2,p31252unqFjnoWqpaA.png",
       },
+      {
+        id: 4,
+        title: "Apteczka ABC Stopery",
+        imgSrc:
+          "https://www.silesianpharma.pl/gfx/silesian-pharma/_thumbs/userfiles/_public/stopery_plastyczne_www2,p31252unqFjnoWqpaA.png",
+      },
     ],
   },
 
@@ -799,6 +817,12 @@ const allData = [
         title: "Moxi Żel po ukąszeniu owadów",
         imgSrc:
           "https://www.silesianpharma.pl/gfx/silesian-pharma/_thumbs/userfiles/_public/moxi_zel_r_www,p31252unqFjnoWqpaA.png",
+      },
+      {
+        id: 4,
+        title: "Tactick Przyrząd do bezpiecznego usuwania kleszczy",
+        imgSrc:
+          "https://www.silesianpharma.pl/gfx/silesian-pharma/_thumbs/userfiles/_public/2020_tactick_r,p31252unqFjnoWqpaA.png",
       },
     ],
   },
