@@ -1,6 +1,8 @@
 import { imageMain, imageMain2 } from "../assets";
+import { imageShelf } from "../assets";
+import { KeyFeatures } from "../components/layout";
 
-import { AboutWrapper } from "../styled-components/style";
+import { AboutWrapper, HomeWrapper } from "../styled-components/style";
 
 const About = () => {
   return (
@@ -43,6 +45,39 @@ const About = () => {
           </p>
         </div>
       </div>
+      <HomeWrapper>
+      <div className="home-content">
+          <p>
+            <span className="home-content__span">
+              <img
+                src={imageShelf}
+                alt="Półki ze antycznymi szklanymi butelkami na surowce do receptury"
+                className="home-content__image"
+              />
+            </span>
+            <span>
+              <b>Nasza apteka w Ropczycach powstała w 1997 roku.</b> Mieścimy
+              się na <b>ulicy Wyszyńskiego 45.</b>
+            </span>
+          </p>
+          <p>
+            <b>Od 25 lat</b> - personel zatrudniony w naszej aptece służy
+            Państwu swoją wiedzą, doświadczeniem nabytym przez lata praca oraz
+            zaangażowaniem. Nasi pracownicy ukończyli najlepsze uczelnie
+            medyczne w kraju, ciągłym szkoleniem oraz wiedzą nabytą z innych
+            dziedzin nauki. Dzięki swojej wiedzy staramy się przezwyciężyć
+            szeroko pojęte problemy zdrowotne.
+          </p>
+          <KeyFeatures />
+          <p>
+            Za pośrednictwem strony internetowej, pragniemy poinformować Państwa
+            o obecnych nowościach w naszej aptece. W razie jakichkolwiek pytań
+            proszę kontaktować się telefonicznie lub przyjechać osobiście.
+            Telefon i adres znajdą Państwo w zakładce Kontakt
+          </p>
+        </div>
+      </HomeWrapper>
+        {/* <h3 className="home-btm-headline">Zapraszamy do naszej apteki </h3> */}
       <div className="about__content">
         <h4>Zapraszamy!</h4>
       </div>

@@ -26,7 +26,7 @@ const Footer = () => {
         <p> NIP 818-000-18-89</p>
       </div>
       <div className="footer__copyright">
-        <p>Copyright &copy; 2022 Apteka Prywatna. All rights reserved.</p>
+        <p>Copyright &copy; 2024 Apteka Prywatna. All rights reserved.</p>
       </div>
       <div className="footer__creator">
         <address>

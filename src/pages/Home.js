@@ -9,9 +9,9 @@ const Home = () => {
   return (
     <>
       <HomeWrapper>
-        <div className="home-info">
+        {/* <div className="home-info">
           <h1>
-            Apteka Prywatna w Ropczycach. <span>Całotygodniowa</span>
+            Apteka w Ropczycach. <span>Całotygodniowa</span>
           </h1>
           <ul>
             <li>
@@ -24,10 +24,45 @@ const Home = () => {
               <b>Niedziela:</b> <span> 09:00 - 19:00</span>
             </li>
           </ul>
+        </div> */}
+        <div className="home-info">
+          <h1>
+            Apteka w Ropczycach. <br></br>
+            <span>Czynna 7 dni w tygodniu</span>
+          </h1>
+          <ul>
+            <li>
+              <b>Poniedziałek</b> <span>07:30 - 20:30</span>
+            </li>
+            <hr />
+            <li>
+              <b>Wtorek</b> <span>07:30 - 20:30</span>
+            </li>
+            <hr />
+            <li>
+              <b>Środa</b> <span>07:30 - 20:30</span>
+            </li>
+            <hr />
+            <li>
+              <b>Czwartek</b> <span>07:30 - 20:30</span>
+            </li>
+            <hr />
+            <li>
+              <b>Piątek</b> <span>07:30 - 20:30</span>
+            </li>
+            <hr />
+            <li className="weekend">
+              <b>Sobota</b> <span>08:30 - 20:30</span>
+            </li>
+            <hr />
+            <li className="weekend">
+              <b>Niedziela i Święta</b> <span>09:00 - 19:00</span>
+            </li>
+          </ul>
         </div>
-        <h2 className="home-headline home-spacing">Witamy na stronie naszej Apteki</h2>
-        <ProductTabs/>
-        <div className="home-content">
+        {/* <h2 className="home-headline home-spacing">Witamy na stronie naszej Apteki</h2> */}
+        <ProductTabs />
+        {/* <div className="home-content">
           <p>
             <span className="home-content__span">
               <img
@@ -56,9 +91,9 @@ const Home = () => {
             proszę kontaktować się telefonicznie lub przyjechać osobiście.
             Telefon i adres znajdą Państwo w zakładce Kontakt
           </p>
-        </div>
+        </div> */}
         <h3 className="home-spacing">Tu jesteśmy</h3>
-        <LeafletMap/>
+        <LeafletMap />
         <h3 className="home-btm-headline">Zapraszamy do naszej apteki </h3>
       </HomeWrapper>
     </>

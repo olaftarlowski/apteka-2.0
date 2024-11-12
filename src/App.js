@@ -9,8 +9,8 @@ import { Home, About, Contact, Products } from "./pages";
 import { Header, Main, Footer, Banner } from "./components/layout";
 
 import { AppContentWrapper } from "./styled-components/style";
-import ProductTabs from "./components/ProductTabs";
-import LeafletMap from "./components/LeafletMap";
+import ScrollToTop from "./components/ScrollToTop";
+
 
 const App = () => {
   return (
@@ -21,6 +21,7 @@ const App = () => {
         {/* <LeafletMap/>
         <ProductTabs/> */}
         <Main>
+          <ScrollToTop/>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/o-nas" element={<About />} title="Index Page" />

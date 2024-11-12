@@ -13,9 +13,9 @@ export const AppContentWrapper = styled.div`
 `;
 
 export const HeaderWrapper = styled.header`
-  background: #f8fafd;
+  background: #f0f0f0;
   width: 100%;
-  border: 1px solid #d2d2d2;
+  border-bottom: 1px solid #d2d2d2;
 
   position: sticky;
   top: 0;
@@ -61,7 +61,7 @@ export const HeaderWrapper = styled.header`
 
 export const NavbarWrapper = styled.nav`
   width: 100%;
-  background-color: #f8fafd;
+  background-color: #f0f0f0;
   display: flex;
   align-items: center;
 
@@ -98,8 +98,8 @@ export const NavbarWrapper = styled.nav`
         border-bottom: 2px solid #d2d2d2;
 
         @media (max-width: 768px) {
-          font-size: 1.5rem;
-          padding: 0.5rem 2rem;
+          font-size: 2rem;
+          padding: 1.3rem 3.3rem;
         }
 
         @media (max-width: 265px) {
@@ -132,11 +132,11 @@ export const MainWrapper = styled.main`
 `;
 
 export const FooterWrapper = styled.footer`
-  background: #f8fafd;
+  background: #f0f0f0;
   border-top: 2px solid #eff2f5;
   padding: 0 48px;
   font-size: 1.4rem;
-  color: #777;
+  color: #000;
   width: 100%;
 
   @media (max-width: 768px) {
@@ -446,10 +446,16 @@ export const HomeWrapper = styled.section`
   }
   .home-info {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+
     width: 100%;
     margin: 50px 0 60px 0;
+
+    .weekend {
+      color: #c71c1c;
+    }
 
     @media (max-width: 476px) {
       flex-direction: column;
@@ -460,6 +466,7 @@ export const HomeWrapper = styled.section`
       width: 40%;
       font-size: 2rem;
       margin: 2px 0;
+      align-self: center;
 
       span {
         @media (max-width: 200px) {
@@ -492,15 +499,21 @@ export const HomeWrapper = styled.section`
     }
 
     ul {
-      margin: 2px 0;
+      margin: 24px 0;
       text-align: left;
-      font-size: 1.2rem;
+      font-size: 1.6rem;
       padding: 0;
-      width: 240px;
+      /* width: 240px; */
+      font-weight: 600;
 
       li {
+        margin-top: 8px;
         display: flex;
         justify-content: space-between;
+
+        b {
+          margin-right: 40px;
+        }
       }
 
       @media (max-width: 322px) {
