@@ -18,8 +18,8 @@ const App = () => {
       <AppContentWrapper>
         <Header />
         <Banner />
-        {/* <LeafletMap/> */}
-        <ProductTabs/>
+        {/* <LeafletMap/>
+        <ProductTabs/> */}
         <Main>
           <Routes>
             <Route path="/" element={<Home />} />

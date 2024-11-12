@@ -4,6 +4,8 @@ import styled from "styled-components";
 
 const ProductTabsWrapper = styled.div`
   background-color: #f0f0f0;
+  padding: 30px 2px;
+  border-radius: 24px;
 
   .content-wrap {
     display: flex;
@@ -43,10 +45,16 @@ const ProductTabsWrapper = styled.div`
 
   .toggle-button {
     display: none;
-    margin-bottom: 10px;
+    border: 1px solid #363636;
+    border-radius: 24px;
+    /* margin-bottom: 10px; */
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+
+    max-width: 170px;
+    margin: 20px auto;
+
   }
 
   @media (max-width: 768px) {
@@ -64,12 +72,11 @@ const ProductTabsWrapper = styled.div`
     }
 
     .toggle-button {
-      display: block; /* Pokaż przycisk w widoku mobilnym */
+      display: block; 
     }
 
-    /* Dodajemy styl otwartej sekcji-left */
     .tabs.open {
-      display: block; /* Pokazuje sekcję-left gdy jest otwarta */
+      display: block;
     }
   }
 
@@ -128,7 +135,7 @@ const ProductTabsWrapper = styled.div`
   }
 `;
 
-const TabsComponent = () => {
+const ProductTabs = () => {
   const [activeTab, setActiveTab] = useState("all");
 
   const handleTabClick = (name) => {
@@ -184,4 +191,4 @@ const TabsComponent = () => {
   );
 };
 
-export default TabsComponent;
+export default ProductTabs;

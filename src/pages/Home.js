@@ -1,8 +1,9 @@
-// import { LeafletMap } from "../components";
+import LeafletMap from "../components/LeafletMap";
 import { KeyFeatures } from "../components/layout";
 import { imageShelf } from "../assets";
 
 import { HomeWrapper } from "../styled-components/style";
+import ProductTabs from "../components/ProductTabs";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
           </ul>
         </div>
         <h2 className="home-headline home-spacing">Witamy na stronie naszej Apteki</h2>
+        <ProductTabs/>
         <div className="home-content">
           <p>
             <span className="home-content__span">
@@ -56,7 +58,7 @@ const Home = () => {
           </p>
         </div>
         <h3 className="home-spacing">Tu jesteśmy</h3>
-        {/* <LeafletMap /> */}
+        <LeafletMap/>
         <h3 className="home-btm-headline">Zapraszamy do naszej apteki </h3>
       </HomeWrapper>
     </>

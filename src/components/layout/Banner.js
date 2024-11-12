@@ -10,6 +10,7 @@ const Banner = () => {
         className="banner-img"
         alt="Pełne zdjęcie apteki z widocznym miejscem do parkowania samochodu"
       />
+      <div className="banner-text" ><p>Już teraz zadbaj o swoje zdrowie</p></div>
       <div className="banner-content">
         <img
           src={logoSnap}

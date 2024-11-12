@@ -9,7 +9,7 @@ const Navbar = ({ setIsNavExpanded }) => {
   const navbarItems = [
     { name: "strona główna", to: "/" },
     { name: "o nas", to: "/o-nas" },
-    { name: "nowości", to: "/nowosci" },
+    { name: "produkty", to: "/nowosci" },
     { name: "kontakt", to: "/kontakt" },
   ];
 

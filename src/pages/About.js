@@ -39,12 +39,12 @@ const About = () => {
             służy państwu swoją wiedzą, doświadczeniem oraz zaangażowaniem.
             Pracownicy ciągle się szkolą podnosząc swoje kwalifikacje, aby
             jeszcze lepiej służyć pacjentom. Profesjonalizm i szacunek to nasze
-            podstawowe wartości.
+            podstawowe wartości.ń
           </p>
         </div>
       </div>
       <div className="about__content">
-        <h4>Zapraszamy</h4>
+        <h4>Zapraszamy!</h4>
       </div>
     </AboutWrapper>
   );

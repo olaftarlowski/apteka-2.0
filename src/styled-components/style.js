@@ -95,7 +95,7 @@ export const NavbarWrapper = styled.nav`
         color: inherit;
         padding: 4px 6px;
         transition: 0.3s ease all;
-        border-bottom: 1px solid #d2d2d2;
+        border-bottom: 2px solid #d2d2d2;
 
         @media (max-width: 768px) {
           font-size: 1.5rem;
@@ -109,8 +109,9 @@ export const NavbarWrapper = styled.nav`
 
         &:hover,
         &.active {
+          font-weight: 600;
           color: #3861fb;
-          border-bottom: 1px solid #3861fb;
+          border-bottom: 2px solid #3861fb;
         }
       }
     }
@@ -209,13 +210,16 @@ export const FooterWrapper = styled.footer`
 
 export const LogoWrapper = styled.div`
   display: block;
-  width: 80px;
+  width: 200px;
   height: 80px;
 
   .main-logo {
     width: 100%;
     height: 100%;
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     img {
       width: 100%;
@@ -291,14 +295,48 @@ export const BannerWrapper = styled.div`
     align-items: center;
   }
 
+  .banner-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+    max-width: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font-weight: 600;
+      margin-left: 24px;
+      font-size: 64px;
+    }
+
+    @media (max-width: 640px) {
+      right: 0;
+      bottom: auto;
+      p {
+        font-size: 32px;
+        font-weight: 600;
+        margin-left: 0;
+      }
+    }
+    @media (max-width: 340px) {
+      p {
+        font-size: 24px;
+      }
+    }
+  }
+
   .banner-content {
     color: #fff;
     text-align: left;
     z-index: 10;
     position: absolute;
-    inset: 0;
-    padding-left: 48px;
-    padding-top: 48px;
+    inset: 0 0 auto auto;
+    padding-right: 48px;
+    padding-top: 28px;
     width: 300px;
     height: 150px;
     display: flex;
@@ -518,6 +556,7 @@ export const AboutWrapper = styled.section`
     display: flex;
     flex-direction: row;
     text-align: left;
+    justify-content: center;
 
     @media (max-width: 768px) {
       flex-direction: column;

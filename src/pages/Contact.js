@@ -2,6 +2,7 @@ import { HiLocationMarker, HiOutlineInformationCircle } from "react-icons/hi";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { BiTime } from "react-icons/bi";
 // import { LeafletMap } from "../components";
+import LeafletMap from "../components/LeafletMap";
 
 import { ContactWrapper } from "../styled-components/style";
 
@@ -55,7 +56,7 @@ const Contact = () => {
             </p>
           </div>
         </div>
-        {/* <LeafletMap /> */}
+        <LeafletMap />
       </div>
     </ContactWrapper>
   );

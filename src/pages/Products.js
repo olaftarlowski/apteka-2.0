@@ -12,6 +12,7 @@ import {
   xigduo,
 } from "../assets/products-img";
 import { ProductItem } from "../components";
+import ProductTabs from "../components/ProductTabs";
 
 import { ProductsWrapper } from "../styled-components/style";
 
@@ -66,7 +67,7 @@ const Products = () => {
 
   return (
     <ProductsWrapper>
-      <h2>Nasze nowości</h2>
+      {/* <h2>Nasze nowości</h2>
       <p>
         Ze względu na duże zainteresowanie pacjentów, wprowadzamy do naszej
         apteki następujące leki nierefundowane(100%).
@@ -76,7 +77,8 @@ const Products = () => {
         {productsData.map((el) => {
           return <ProductItem key={`product-${el.name}`} data={el} />;
         })}
-      </div>
+      </div> */}
+      <ProductTabs/>
     </ProductsWrapper>
   );
 };
