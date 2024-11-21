@@ -20,10 +20,9 @@ const Footer = () => {
       </div>
       <div className="footer__copyright">
         <p>
-          Apteka Prywatna - MAŁGORZATA RZEGOCKA<br></br> Ks. Kard. Stefana
-          Wyszyńskiego 45, 39–100 Ropczyce
+        Apteka Prywatna mgr farm. Urszula Siuta mgr farm. Małgorzata Rzegocka<br></br> Wielopole Skrzyńskie 260, 39-110 Wielopole Skrzyńskie
         </p>
-        <p> NIP 818-000-18-89</p>
+        <p> NIP 8180002736</p>
       </div>
       <div className="footer__copyright">
         <p>Copyright &copy; 2024 Apteka Prywatna. All rights reserved.</p>

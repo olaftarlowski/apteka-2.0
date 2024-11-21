@@ -1,7 +1,7 @@
 export { default as bannerImg } from "./banner-image-new.jpg";
 export {default as newLogoSM} from "./new-logo/logo-small.png"
 export {default as newLogoImg} from "./new-logo/apteka-prywatna-high-resolution-logo-transparent.png"
-export { default as logoSnap } from "./logo-new-rop.png";
+export { default as logoSnap } from "./logo-new-wiel.png";
 
 ///
 

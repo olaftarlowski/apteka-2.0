@@ -3,7 +3,7 @@ import { MapWrapper } from "../styled-components/style";
 import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
 
 const LeafletMap = () => {
-  const position = [50.05666651571434, 21.612606910696275];
+  const position = [49.944587, 21.611151];
 
   return (
     <MapWrapper>
@@ -13,7 +13,7 @@ const LeafletMap = () => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <Marker position={position}>
-          <Popup>Nasza apteka w Ropczycach</Popup>
+          <Popup>Nasza apteka w Wielopolu Skrzyńskim</Popup>
         </Marker>
       </MapContainer>
     </MapWrapper>

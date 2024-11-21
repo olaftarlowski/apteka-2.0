@@ -11,7 +11,7 @@ const Navbar = ({ setIsNavExpanded }) => {
     { name: "o nas", to: "/o-nas" },
     { name: "produkty", to: "/nowosci" },
     { name: "kontakt", to: "/kontakt" },
-    { name: "apteka Wielopole", to: "https://www.apteka-wielopole.pl/" },
+    { name: "apteka Ropczyce", to: "https://www.apteka-ropczyce.pl/" },
   ];
 
   const expandNavHandler = () => {
@@ -29,7 +29,7 @@ const Navbar = ({ setIsNavExpanded }) => {
             <li key={`navbar-${item.name}`} onClick={expandNavHandler}>
               <NavLink
                 target={`${
-                  item.name === "apteka Wielopole" ? "_blank" : "_self"
+                  item.name === "apteka Ropczyce" ? "_blank" : "_self"
                 }`}
                 to={item.to}
                 className={({ isActive }) =>
