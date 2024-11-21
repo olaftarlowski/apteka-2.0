@@ -86,6 +86,9 @@ const ProductTabsWrapper = styled.div`
     width: 220px;
     text-align: center;
     margin: 10px;
+    box-shadow: 2px 4px 4px 0px rgba(172, 172, 172, 1);
+    background-color: #fff;
+    border-radius: 12px;
 
     display: flex;
     flex-direction: column;

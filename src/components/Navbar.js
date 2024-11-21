@@ -11,6 +11,7 @@ const Navbar = ({ setIsNavExpanded }) => {
     { name: "o nas", to: "/o-nas" },
     { name: "produkty", to: "/nowosci" },
     { name: "kontakt", to: "/kontakt" },
+    { name: "apteka Wielopole", to: "https://www.apteka-wielopole.pl/" },
   ];
 
   const expandNavHandler = () => {
@@ -27,6 +28,9 @@ const Navbar = ({ setIsNavExpanded }) => {
           return (
             <li key={`navbar-${item.name}`} onClick={expandNavHandler}>
               <NavLink
+                target={`${
+                  item.name === "apteka Wielopole" ? "_blank" : "_self"
+                }`}
                 to={item.to}
                 className={({ isActive }) =>
                   isActive ? activeClassName : undefined

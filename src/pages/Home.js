@@ -56,7 +56,7 @@ const Home = () => {
             </li>
             <hr />
             <li className="weekend">
-              <b>Niedziela i Święta</b> <span>09:00 - 19:00</span>
+              <b>Niedziela <br/> i Święta</b> <span>09:00 - 19:00</span>
             </li>
           </ul>
         </div>
