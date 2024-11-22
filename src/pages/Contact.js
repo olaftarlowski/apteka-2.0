@@ -39,7 +39,7 @@ const Contact = () => {
             <p className="content__day-parag">
               <span>poniedziałek - piątek</span>
               <b>
-                <BiTime />&nbsp; 07:30 – 18:00
+                <BiTime />&nbsp; 07:00 – 18:00
               </b>
             </p>
             <p className="content__day-parag">
@@ -51,7 +51,7 @@ const Contact = () => {
             <p className="content__day-parag">
               <span>niedziela</span>
               <b>
-                <BiTime />&nbsp; 08:00 – 14:00
+                <BiTime />&nbsp; 07:30 – 15:30
               </b>
             </p>
           </div>

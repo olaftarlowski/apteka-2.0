@@ -16,23 +16,23 @@ const Home = () => {
           </h1>
           <ul>
             <li>
-              <b>Poniedziałek</b> <span>07:30 - 18:00</span>
+              <b>Poniedziałek</b> <span>07:00 - 18:00</span>
             </li>
             <hr />
             <li>
-              <b>Wtorek</b> <span>07:30 - 18:00</span>
+              <b>Wtorek</b> <span>07:00 - 18:00</span>
             </li>
             <hr />
             <li>
-              <b>Środa</b> <span>07:30 - 18:00</span>
+              <b>Środa</b> <span>07:00 - 18:00</span>
             </li>
             <hr />
             <li>
-              <b>Czwartek</b> <span>07:30 - 18:00</span>
+              <b>Czwartek</b> <span>07:00 - 18:00</span>
             </li>
             <hr />
             <li>
-              <b>Piątek</b> <span>07:30 - 18:00</span>
+              <b>Piątek</b> <span>07:00 - 18:00</span>
             </li>
             <hr />
             <li className="weekend">
@@ -43,7 +43,7 @@ const Home = () => {
               <b>
                 Niedziela <br /> i Święta
               </b>{" "}
-              <span>08:00 - 14:00</span>
+              <span>07:30 - 15:30</span>
             </li>
           </ul>
         </div>
